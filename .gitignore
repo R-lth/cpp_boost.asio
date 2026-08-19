@@ -1,9 +1,5 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+### C++
+# Object files
 *.o
 *.obj
 
@@ -11,59 +7,71 @@
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# Dynamic libraries
 *.so
 *.dylib
 *.dll
-*.so.*
 
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+# Static libraries
 *.a
 *.lib
 
 # Executables
 *.exe
 *.out
-*.app
 
-# Build directories
-build/
-Build/
-build-*/
+# Linker output
+*.ilk
+*.map
+*.exp
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# Debug files
+*.dSYM/
+*.idb
+*.pdb
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
+### Windows
+# Windows thumbnail cache files
+Thumbs.db
 
-# vcpkg
-vcpkg_installed/
+# Folder config file
+[Dd]esktop.ini
 
-# debug information files
-*.dwo
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# test output & cache
-Testing/
-.cache/
+# Windows shortcuts
+*.lnk
+
+### VisualStudio
+# User-specific files
+*.suo
+*.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options directory
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Publish Web Output
+*.[Pp]ublish.xml
